@@ -8,28 +8,33 @@
 <body>
     <h1>Penízky</h1>
 
-    <form id="login" action="none">
-        <h2>login</h2>
-        <label for="">e-mail</label><br>
-        <input type="email" name="email" id="email"><br>
+    <form id="login-form" action="none">
+        <h2>Login</h2>
+        <label for="login-email">e-mail</label><br>
+        <input type="email" name="login-email"><br>
+        <label for="password"></label>
         <input type="password" name="password"><br>
         <button>Login</button>
     </form>
 
-    <p>
-        go to registration
-    </p>
+    
+    <form id="registration-form" action="">
 
-    <form id="registration" action="">
         <h2>Registration</h2>
+
         <label for="">e-mail</label><br>
-        <input type="email" name="email" id="email"><br>
+        <input type="email" name="registration-email"><br>
+        <label for="password">password</label><br>
         <input type="password" name="password"><br>
-        <input type="password" name="repassword"><br>
+        <label for="re-password">repeat password</label><br>
+        <input type="password" name="re-repassword"><br>
 
         <button>Register</button>
-
     </form>
+
+    <p id="message"></p>
+
+    <p id="form-switch">go to registration</p>
 
 
 </body>
